@@ -8,6 +8,10 @@ type Event struct {
 	Descriptiom string `json:"description"`
 }
 
+type allEvents []Event
+
+var events = allEvents{}
+
 func main() {
 	fmt.Println("Starting API")
 }
